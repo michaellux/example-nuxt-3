@@ -4,7 +4,11 @@ export default defineNuxtConfig({
   modules: [
     // pinia plugin
     '@pinia/nuxt',
+    'nuxt-primevue'
   ],
+  primevue: {
+      /* Options */
+  },
 
   imports: {
     dirs: ['./stores'],
